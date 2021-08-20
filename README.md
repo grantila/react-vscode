@@ -1,7 +1,7 @@
 [![npm version][npm-image]][npm-url]
 [![downloads][downloads-image]][npm-url]
 [![build status][build-image]][build-url]
-[![coverage status][coverage-image]][coverage-url]
+<!-- [![coverage status][coverage-image]][coverage-url] -->
 [![Language grade: JavaScript][lgtm-image]][lgtm-url]
 [![Node.JS version][node-version]][node-url]
 
