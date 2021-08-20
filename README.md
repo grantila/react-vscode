@@ -56,6 +56,9 @@ type TreeItemLabel = string | {
 };
 ```
 
+You can also import the component types from `react-vscode/components`, in which case you won't get potential module issues with `vscode` or `perf_hooks` not being resolvable.
+
+
 ## Use in VSCode
 
 You need to have a tree registered with an id in `package.json`, in e.g. `contributes/views/explorer`.

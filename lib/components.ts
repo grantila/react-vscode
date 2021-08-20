@@ -1,4 +1,4 @@
-import { makeComponent } from 'react-tree-reconciler'
+import { makeComponent } from 'react-tree-reconciler/components'
 
 
 export type TreeItemLabel = string | {
