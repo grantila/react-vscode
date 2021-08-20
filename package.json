@@ -1,0 +1,41 @@
+{
+	"name": "react-vscode",
+	"displayName": "react-vscode",
+	"description": "React for VSCode",
+	"version": "0.0.0-development",
+	"engines": {
+		"node": ">=12",
+		"vscode": "^1.57.0"
+	},
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"build": "tsc -p tsconfig.prod.json",
+		"test": "exit 0"
+	},
+	"devDependencies": {
+		"@types/jest": "^27.0.1",
+		"@types/react": "^17.0.19",
+		"@types/react-reconciler": "^0.26.3",
+		"@types/vscode": "^1.59.0",
+		"commitizen": "^4.2.4",
+		"cz-conventional-changelog": "^3.3.0",
+		"jest": "^27.0.6",
+		"react": "^17.0.2",
+		"ts-jest": "^27.0.5",
+		"typescript": "^4.3.5",
+		"vscode-test": "^1.6.1"
+	},
+	"peerDependencies": {
+		"@types/vscode": "^1.57.0",
+		"react": "^16 || ^17"
+	},
+	"dependencies": {
+		"react-tree-reconciler": "^1.1.1"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
+}
