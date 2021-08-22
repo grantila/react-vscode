@@ -4,12 +4,5 @@
 		"sourceMap": false,
 		"outDir": "dist",
 		"noEmit": false
-	},
-	"include": [
-		"lib"
-	],
-	"exclude": [
-		"test",
-		"**/*.test.ts"
-	]
+	}
 }
