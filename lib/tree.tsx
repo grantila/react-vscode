@@ -250,7 +250,7 @@ function connectEvents( treeId: string, tree: vscode.TreeView< TreeItemImpl > )
 		{
 			if ( item instanceof TreeItemImpl )
 			{
-				item.props.onSelected?.( );
+				item.props.onClick?.( );
 			}
 		}
 	);
